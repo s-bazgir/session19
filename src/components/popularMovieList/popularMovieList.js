@@ -14,7 +14,6 @@ export function PopularMovieList(props){
                 )
             })
       }
-
       return (
               <div className="popular">
                     <h3>{props.title}</h3>

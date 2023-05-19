@@ -1,0 +1,43 @@
+.container{
+    width:1200px;
+    margin:0 auto;
+}
+.popular h3{
+    color: #fff;
+    margin: 30px 0;
+}
+.popular .mostPopular{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:20px;
+    flex-wrap: nowrap;
+}
+.popular .mostPopular li{
+    width:16.6%;
+}
+.popular .mostPopular .imageHolder{   
+    position: relative;   
+}
+.popular .mostPopular .imageHolder img{
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+.popular .mostPopular .imageHover{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    content:"";
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+.popular .mostPopular .imageHolder:hover .imageHover{
+    background: transparent;
+}
+.popular .mostPopular .imageHolder:hover .imageHolder{
+    border:1px solid #fff;
+    transform: scale(1.2);
+}

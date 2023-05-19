@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {popularMovieList1, popularMovieList2 ,popularMovieList3} from './popularMovieList/data';
-import { PopularMovieList } from  './popularMovieList/popularMovieList';
-import {filmTvList1, filmTvList2, filmTvList3} from './filmTv/data';
-import {FilmTv}  from './filmTv/filmTv';
+import {popularMovieList1, popularMovieList2 ,popularMovieList3} from './data';
+import { PopularMovieList } from  './components/popularMovieList/popularMovieList';
+import {filmTvList1, filmTvList2, filmTvList3} from './data';
+import {FilmTv}  from './components/filmTv/filmTv';
 import "./assets/css/style.css";
+import "./assets/css/fontawesome/fontawesome.css";
+import "./assets/css/fontawesome/brands.css";
+import "./assets/css/fontawesome/regular.css";
+import "./assets/css/fontawesome/solid.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
